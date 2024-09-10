@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <style>
+        .blue{
+            color: blue;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: smaller;
+        }
+        table{
+            border-collapse: collapse;
+            width: 25%
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            background-color: #f2f2f2;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dog D. Dog</h1> <img src="husky.jpg" style="float: right;" alt="Cristiano" height="250" width="250">
+     <h2 style="background-color: lightskyblue; color: blue;">About</h2>     
+      <p>Woof woof!<br><br>Hi,I'm Dog.I love <span class="blue">User Interface Design</span></p>
+     <h2 style="background-color: lightskyblue; color: blue;">Courses</h2>
+      <p>Here are some courses I've taken:</p>
+        <table>
+            <tr>
+                <td style="text-align: center;"><b>Course Number</b></td>
+                <td style="text-align: center;"><b>Course Title</b></td>
+                <td style="text-align: center;"><b>Semester Taken</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;"><b>For Credit</b></td>
+            </tr>
+            <tr>
+                <td style="background-color: #e3e3e3; color: blue;">6.813</td>
+                <td style="background-color: #e3e3e3; color: blue;">User Interface Design</td>
+                <td style="background-color: #e3e3e3; color: blue;">Spring 2014</td>
+            </tr>
+            <tr>
+                <td style="color: rgb(27, 27, 156);">6.034</td>
+                <td>Artificial Intelligence</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td style="background-color: #e3e3e3; color: blue;">6.006</td>
+                <td style="background-color: #e3e3e3;">Introduction to Algorithms</td>
+                <td style="background-color: #e3e3e3;">Fall 2013</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;"><b>Listener</b></td>
+            </tr>
+            <tr>
+                <td style="background-color: #e3e3e3; color: blue;">6.867</td>
+                <td style="background-color: #e3e3e3;">Machine Learning</td>
+                <td style="background-color: #e3e3e3;">Fall 2013</td>
+            </tr>
+            <tr>
+                <td style="color: blue;">6.830</td>
+                <td>Database Systems</td>
+                <td>Fall 2021</td>
+            </tr>
+        </table>
+     <h2 style="background-color: lightskyblue; color: blue;">Interests</h2>
+      <p>I am interested <strong>HCI</strong>, memes, and youtube videos</p> 
+     <h2 style="background-color: lightskyblue; color: blue;">Submit Pet Information</h2>
+      <p>Would love to know what kinds of pets you 'own'(you'll never own me).Submit below!</p>    
+    <form action="https://www.facebook.com/">    
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+        <br>
+    <label for="phylum">Phylum:</label>
+    <input type="text" id="phylum">
+        <br>   
+    <label for="gender">Gender:</label>
+    <input type="text" id="gender">
+    <br>
+    <button type="submit" style="background-color: darkgrey; font-size:x-small;">Submit</button>    
+    </form>    
+</body>
+</html>
